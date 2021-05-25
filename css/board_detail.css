@@ -1,0 +1,123 @@
+.detail-delivery{
+    color: #888;
+}
+.price>.price-left{
+    float: left;
+    margin: 0;
+    
+}
+.price-right{
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+.detail-wrap>.price{
+    overflow: hidden;
+    line-height: 50px;
+    
+ 
+}
+.basket-box{
+    border: 1px solid #777;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+.detail-right{
+    min-height: 350px;
+}
+.detail-price{
+    border-top: 1px solid #777;
+    border-bottom: 1px solid #777;
+    font-size: 30px;
+    padding: 10px;
+}
+
+
+
+.basket-box>.left,
+.basket-box>.right{
+    float: left;
+    width: 50%;
+    height: 60px;
+    line-height: 50px;
+}
+
+.detail-content{
+    font-size: 20px;
+}
+
+.row{
+    margin: 30px;
+}
+.detail-title{
+    border-bottom: 1px solid #999;
+    padding-bottom: 10px;
+}
+
+/* =========댓글영역========== */
+
+.re-wrap{
+    border: 1px solid #d2d2d2;
+    background-color: #f5f5f5;
+    padding: 20px;
+    position: relative;
+}
+
+.re-wrap>.re-img{
+    position: absolute;
+    top: 20;
+    left: 20;
+}
+.re-wrap>.re-content{
+    padding-left: 60px;
+}
+
+.re-content>.form-control{
+    resize: vertical;/* 세로축 */
+
+    margin-bottom: 15px;
+}
+.re-group>.form-control{
+
+    width: 150px;
+}
+.re-group>.left{
+    float: left;
+}
+.re-group>.right{
+    float: right;
+}
+.re-group{
+    overflow: hidden;
+    margin-top: 10px;
+}
+.re-group input[type=text]{
+    margin-bottom: 10px;
+}
+
+/* textarea트랜지션 */
+.re-content textarea{
+    height: 80px;
+    transition: all 0.5s ease-in-out;
+}
+.re-content textarea:focus{
+    height: 150px;
+}
+
+/* 답글영역 */
+
+.re-content strong,
+.re-content small{
+    float: left;
+    height: 20px;
+    line-height: 20px;
+}
+.re-content a{
+    float: right;
+    text-decoration: none;
+    color: black;
+}
+.re-content p {
+    margin: 0;
+}

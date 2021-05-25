@@ -1,0 +1,51 @@
+.titlebox{
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+    text-align: center;
+    margin: 70px auto;
+    float: none;
+    border-top: 1px solid #d2d2d2;
+    border-bottom:1px solid #d2d2d2;
+
+}
+
+.join_form{
+    /* 부트스트랩에서 col클래스가 float을 가지고 있어서 가운데 정려이 불가 */
+    /* 1개의 col클래스를 가운데 정렬할 때 margin과 float을 제거 */
+    margin: 0 auto;
+    float: none;
+}
+
+.join_form form{
+   
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgb(0, 0, 0, 0.15);  /* 가로축 그림자, 세로축 그림자, 명암, 색상 */
+    padding: 30px;
+}
+@media(max-width:768px){    /* 모바일화면 */
+    .join_form form{
+        padding:0;
+    }
+    .login_img>img{
+        width:550px;
+    }
+}
+.login_form{
+    margin: 0 auto;
+    float: none;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgb(0, 0, 0, 0.15);
+    padding: 20px;
+    width: 100%;
+    overflow: hidden;
+}
+.login_img>img{
+    width: 100%;
+}
+
+
+
+
+
